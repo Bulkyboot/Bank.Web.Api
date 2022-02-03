@@ -1,6 +1,6 @@
 ﻿namespace Bank.Web.API.Models
 {
-    public class User : BaseEntity
+    public class User
     {
         public string Name { get; set; }
         public string Email { get; set; } 
