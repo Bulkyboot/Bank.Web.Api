@@ -1,6 +1,8 @@
-﻿namespace Bank.Web.API.Models
+﻿using Bank.Web.API.Models.Base;
+
+namespace Bank.Web.API.Models
 {
-    public class User
+    public class User : BaseEntity
     {
         public string Name { get; set; }
         public string Email { get; set; } 

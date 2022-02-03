@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Bank.Web.API.Models.Base;
+using System;
 
 namespace Bank.Web.API.Models
 {
-    public class Account
+    public class Account : BaseEntity
     {
         public int Number { get; set; }
         public int CV { get; set; }
